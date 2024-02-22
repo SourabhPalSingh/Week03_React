@@ -6,6 +6,14 @@ body{
     max-width: 1024px;
     margin: 0 auto;
 }
+
+/* header search form style */
+header div.pull-right{
+    float: right;
+    padding: 4% 0;
+}
+
+
 nav{background-color: beige; height: 40px;}
 nav ul{margin: 0; display: block;}
 nav ul.pull-left{float: left;}
