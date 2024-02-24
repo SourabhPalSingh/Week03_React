@@ -12,8 +12,8 @@
     <header>
         <img src="assets/images/logo.png" alt="" width="100" class="pull-left">
         <div class="pull-right">
-            <input type="text"> 
-            <input type="button" value="Search">
+            <input type="text" id="searchText"> 
+            <input type="button" value="Search" id="filterProduct">
         </div>
     </header>
     <nav>
@@ -28,7 +28,7 @@
     </nav>
     <h2>Gym home equipments</h2>
     <section class="prodList">
-        <div>
+        <div class="box" data-item="dumbbells">
             <img src="assets/images/product1.jpeg" alt="" width="200">
             <h4>Dumbbells</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -41,7 +41,7 @@
                 remaining essentially unchanged. </p>
             <button>Add to cart</button>
         </div>
-        <div>
+        <div class="box" data-item="weight">
             <img src="assets/images/product2.webp" alt="" width="200">
             <h4>Weight</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -50,9 +50,9 @@
                 into electronic typesetting, remaining essentially unchanged. </p>
             <button>Add to cart</button>
         </div>
-        <div>
+        <div class="box" data-item="resistant">
             <img src="assets/images/product3.webp" alt="" width="200">
-            <h4>Dumbells</h4>
+            <h4>Trimmer Resistant Band</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                 scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
@@ -63,6 +63,8 @@
     </section>
 
     <footer>Copyright 2024. All rights are reserved.</footer>
+
+    <script src="assets/js/prodFilter.js"></script>
 </body>
 
 </html>
